@@ -25,10 +25,8 @@ CHANGELOG.md
 .tmp/
 *.tmp
 coverage.txt
-
 # OS files
 .DS_Store
-
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -37,9 +35,9 @@ coverage.txt
 *.dylib
 /grype/grype
 main
-
 # Test binary, build with `go test -c`
 *.test
-
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+# macOS system files
+._*

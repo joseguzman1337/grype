@@ -25,7 +25,7 @@ func init() {
 		{
 			typ:             "go-module",
 			vulnerabilities: []string{"CVE-2015-5237", "CVE-2021-22570"},
-			packages:        []string{"google.golang.org/protobuf"},
+			packages:        []string{`google\.golang\.org/protobuf`},
 		},
 		// Affects Squiz Matrix, not in any way related to the matrix ruby gem
 		{
